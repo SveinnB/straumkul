@@ -22,7 +22,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Alhliða rafverktakar og kælitækjaþjónusta' },
-      { hid: 'keywords', name: 'keywords', content: 'rafvirki, rafverktakar, verktakar, byggingaverktakar, viðhald, kælitækni, raflagnir, rafþjónusta' }
+      { hid: 'keywords', name: 'keywords', content: 'straumkul, rafvirki, rafverktakar, verktakar, byggingaverktakar, viðhald, kælitækni, raflagnir, rafþjónusta' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
@@ -76,14 +76,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  },
-  router: {
-    extendRoutes (routes, resolve) {
-      routes.push({
-        path: '*',
-        redirect: '/'
-      })
-    }
   },
   generate: {
     fallback: true
