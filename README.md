@@ -1,6 +1,8 @@
 # Straumkul
 
-Vefsíða fyrir straumkul.is
+Mjög einföld one page vefsíða fyrir straumkul.is
+
+Nuxt + Vuetify
 
 
 ## Build Setup

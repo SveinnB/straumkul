@@ -2,6 +2,7 @@
   "name": "straumkul",
   "version": "1.0.0",
   "private": true,
+  "author": "Sveinn Bjarki Brynjarsson",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
