@@ -77,7 +77,13 @@ export default {
   */
   build: {
   },
-  generate: {
-    fallback: true
+  router: {
+    extendRoutes (routes, resolve) {
+      routes.push({
+        path: '*',
+        redirect: '/'
+        //component: resolve(__dirname, 'pages/index.vue')
+      })
+    }
   }
 }
