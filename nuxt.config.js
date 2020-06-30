@@ -84,5 +84,8 @@ export default {
         redirect: '/'
       })
     }
+  },
+  generate: {
+    fallback: true
   }
 }
